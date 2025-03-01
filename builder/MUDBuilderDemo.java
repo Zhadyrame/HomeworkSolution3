@@ -4,7 +4,7 @@ public class MUDBuilderDemo {
                 .setDungeonName("Dark Cave")
                 .addRoom(new Room("Entrance", "A dark and eerie entrance"))
                 .addRoom(new Room("Treasure Room", "A room full of treasure"))
-                .addNPC(new NPC("Goblin", "A sneaky little goblin", 50))
+                .addNPC(new NPC("Goblin", "A sneaky little goblin", 5))
                 .build();
 
         dungeon.display();
